@@ -1,0 +1,42 @@
+/* Set global font family for page */
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Define h1 for banner id. Using this method instead of a global h1, since
+there is only a single h1 in this site */
+
+#banner-image h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url(img/pattern.jpeg);
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+#frames h2 {
+  background-color: lightcoral;
+}
+
+#paint h2 {
+  background-color: skyblue;
+}
+
+.price {
+  font-weight: bold;
+  color: blue;
+}
